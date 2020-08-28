@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		8036D7F224F842C2004F0C39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036D7F124F842C2004F0C39 /* AppDelegate.swift */; };
 		8036D7F424F842C2004F0C39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036D7F324F842C2004F0C39 /* SceneDelegate.swift */; };
-		8036D7F624F842C2004F0C39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036D7F524F842C2004F0C39 /* ViewController.swift */; };
+		8036D7F624F842C2004F0C39 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036D7F524F842C2004F0C39 /* LoginViewController.swift */; };
 		8036D7F924F842C2004F0C39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8036D7F724F842C2004F0C39 /* Main.storyboard */; };
 		8036D7FB24F842CC004F0C39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8036D7FA24F842CC004F0C39 /* Assets.xcassets */; };
 		8036D7FE24F842CC004F0C39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8036D7FC24F842CC004F0C39 /* LaunchScreen.storyboard */; };
+		808766C124F84D01000F0825 /* WelcomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808766C024F84D01000F0825 /* WelcomePageViewController.swift */; };
+		808766C324F84D3E000F0825 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808766C224F84D3E000F0825 /* UserInfoViewController.swift */; };
+		808766C524F877BE000F0825 /* LoginPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808766C424F877BE000F0825 /* LoginPassword.swift */; };
+		808766C724F8780E000F0825 /* UserInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808766C624F8780E000F0825 /* UserInformation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8036D7EE24F842C2004F0C39 /* LoginPassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginPassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8036D7F124F842C2004F0C39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8036D7F324F842C2004F0C39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8036D7F524F842C2004F0C39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8036D7F524F842C2004F0C39 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		8036D7F824F842C2004F0C39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8036D7FA24F842CC004F0C39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8036D7FD24F842CC004F0C39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8036D7FF24F842CC004F0C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808766C024F84D01000F0825 /* WelcomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageViewController.swift; sourceTree = "<group>"; };
+		808766C224F84D3E000F0825 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		808766C424F877BE000F0825 /* LoginPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPassword.swift; sourceTree = "<group>"; };
+		808766C624F8780E000F0825 /* UserInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,59 @@
 		8036D7F024F842C2004F0C39 /* LoginPassword */ = {
 			isa = PBXGroup;
 			children = (
-				8036D7F124F842C2004F0C39 /* AppDelegate.swift */,
-				8036D7F324F842C2004F0C39 /* SceneDelegate.swift */,
-				8036D7F524F842C2004F0C39 /* ViewController.swift */,
-				8036D7F724F842C2004F0C39 /* Main.storyboard */,
-				8036D7FA24F842CC004F0C39 /* Assets.xcassets */,
-				8036D7FC24F842CC004F0C39 /* LaunchScreen.storyboard */,
-				8036D7FF24F842CC004F0C39 /* Info.plist */,
+				8036D80524F84308004F0C39 /* ViewControllers */,
+				8036D80624F84337004F0C39 /* Models */,
+				8036D80724F84344004F0C39 /* Storyboard */,
+				8036D80824F8436B004F0C39 /* SupportingFiles */,
+				8036D80924F8438F004F0C39 /* Sources */,
 			);
 			path = LoginPassword;
+			sourceTree = "<group>";
+		};
+		8036D80524F84308004F0C39 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8036D7F524F842C2004F0C39 /* LoginViewController.swift */,
+				808766C024F84D01000F0825 /* WelcomePageViewController.swift */,
+				808766C224F84D3E000F0825 /* UserInfoViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8036D80624F84337004F0C39 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				808766C424F877BE000F0825 /* LoginPassword.swift */,
+				808766C624F8780E000F0825 /* UserInformation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8036D80724F84344004F0C39 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8036D7F724F842C2004F0C39 /* Main.storyboard */,
+				8036D7FC24F842CC004F0C39 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		8036D80824F8436B004F0C39 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8036D7F124F842C2004F0C39 /* AppDelegate.swift */,
+				8036D7F324F842C2004F0C39 /* SceneDelegate.swift */,
+				8036D7FF24F842CC004F0C39 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		8036D80924F8438F004F0C39 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8036D7FA24F842CC004F0C39 /* Assets.xcassets */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +190,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8036D7F624F842C2004F0C39 /* ViewController.swift in Sources */,
+				808766C524F877BE000F0825 /* LoginPassword.swift in Sources */,
+				808766C724F8780E000F0825 /* UserInformation.swift in Sources */,
+				8036D7F624F842C2004F0C39 /* LoginViewController.swift in Sources */,
 				8036D7F224F842C2004F0C39 /* AppDelegate.swift in Sources */,
+				808766C324F84D3E000F0825 /* UserInfoViewController.swift in Sources */,
+				808766C124F84D01000F0825 /* WelcomePageViewController.swift in Sources */,
 				8036D7F424F842C2004F0C39 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,7 +341,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LoginPassword/Info.plist;
+				INFOPLIST_FILE = LoginPassword/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LoginPassword/Info.plist;
+				INFOPLIST_FILE = LoginPassword/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

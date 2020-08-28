@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  UserInfoViewController.swift
 //  LoginPassword
 //
 //  Created by Evgenia Shipova on 27.08.2020.
@@ -8,13 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class UserInfoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        navigationItem.title = (self.tabBarController?.viewControllers?[0] as? WelcomePageViewController)?.userName
     }
-
-
 }
-
